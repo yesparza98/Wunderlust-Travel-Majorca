@@ -53,12 +53,12 @@ table {
 :root {
     --yellow: #F6D64A;
     --teal: #55BCD5;
-	  --purple: #9B26B0;
-	  --blue: #499BD2;
-	  --dgray: #222222;
-	  --lgray: #EAEAEA;
-	  --white: #FFFFFF;
-	  --black: #000000;
+	--purple: #9B26B0;
+	--blue: #499BD2;
+	--dgray: #222222;
+	--lgray: #EAEAEA;
+	--white: #FFFFFF;
+	--black: #000000;
     --ver1font: "Molle", cursive;
     --ver2font: "Montserrat", sans-serif; 
     font-size: 16px;
