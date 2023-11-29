@@ -53,12 +53,12 @@ table {
 :root {
     --yellow: #F6D64A;
     --teal: #55BCD5;
-	--purple: #9B26B0;
-	--blue: #499BD2;
-	--dgray: #222222;
-	--lgray: #EAEAEA;
-	--white: #FFFFFF;
-	--black: #000000;
+	  --purple: #9B26B0;
+	  --blue: #499BD2;
+	  --dgray: #222222;
+	  --lgray: #EAEAEA;
+	  --white: #FFFFFF;
+	  --black: #000000;
     --ver1font: "Molle", cursive;
     --ver2font: "Montserrat", sans-serif; 
     font-size: 16px;
@@ -333,38 +333,38 @@ nav {
     padding: 10px;
 }
 
-#about div {
+#about div{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
     padding: 10px;
 }
 
-#about section {
+#about section{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-#about img {
+#about img{
     max-height: 85px;
     max-width: 100%;
 }
 
-form {
+form{
     padding: 10px;
 }
 
-#contact {
+#contact{
     padding: 20px;
 }
 
-#contact h3 {
+#contact h3{
     padding: 5px;
 }
 
-#contact h3 span { 
+#contact h3 span{ 
     font-size: 15px;
     font-style: italic;
     font-family: var(--ver2font);
@@ -376,50 +376,50 @@ legend, form label{
     padding-top: 10px;
 }
 
-.required {
+.required{
     color: var(--purple);
     font-weight: bold;
 }
 
-form div {
+form div{
     display: flex;
     flex-direction: column;
 }
 
-form input {
+form input{
     padding: 12px;
     border: 3px solid var(--purple);
     font-family: var(--ver2font);
 }
 
-#nums {
+#nums{
     padding: 3px;
 }
 
-fieldset {
+fieldset{
     display: flex;
     flex-direction: column;
 }
 
-fieldset label, .radio-input {
+fieldset label, .radio-input{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 /*check markk style*/
-[type="radio"]:checked {
+[type="radio"]:checked{
     background-color: var(--purple);
     appearance: none;
     border-radius: 50%;
     transform: scale(.60); 
 }
 
-[type="radio"] {
+[type="radio"]{
     width: 60px;
     height: 60px;
 }
 
-.radio-control {
+.radio-control{
     transform: translate(9%, 3%);
     display: block;
     position: absolute;
@@ -430,17 +430,17 @@ fieldset label, .radio-input {
     border-radius: 50%;   
 }
 
-.radio-label {
+.radio-label{
     padding: 20px;
 }
 
-select {
+select{
     border: 3px solid var(--purple);
     padding: 10px;
     font-family: var(--ver2font);
 }
 
-#mySubmit {
+#mySubmit{
     margin-top: 5px;
     background-color: var(--purple);
     color: var(--white);
@@ -448,7 +448,7 @@ select {
     font-weight: bolder;
 }
 
-footer {
+footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -457,12 +457,12 @@ footer {
     background-color: var(--lgray);
 }
 
-footer p {
+footer p{
     font-size: 20px;
     padding: 5px;
 }
 
-footer a {
+footer a{
     text-decoration: none;
     color: var(--dgray);
     font-family: var(--ver2font);
@@ -470,20 +470,20 @@ footer a {
     padding: 5px;
 }
 
-@media (min-width: 650px) {
-    header {
+@media (min-width: 650px){
+    header{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, .2fr);
         padding-bottom: 30px;
     }
 
-    #logo {
+    #logo{
         grid-row: 1/3;
         order: unset;
     }
 
-    #logo img {
+    #logo img{
         max-width: 180px;
         width: fit-content;
     }
@@ -492,23 +492,23 @@ footer a {
         color: var(--dgray); 
     }
 
-    header p {
+    header p{
         grid-row: 2/3;
         grid-column: 2/-1;
         order: unset;
     }
 
-    nav {
+    nav{
         grid-row: 3/4;
         grid-column: 1/-1;
         padding: 3px;
     }
 
-    #menu-toggle label {
+    #menu-toggle label{
         display: none;
     }
 
-    #menu-toggle ul {
+    #menu-toggle ul{
         display: flex;
         justify-content: space-evenly; /*important*/
         width: 100%;
@@ -517,20 +517,20 @@ footer a {
         left: auto;
     }
 
-    #menu-toggle li {
+    #menu-toggle li{
         width: 100%;
         text-align: center;
         margin: 5px;
     }
-    #menu-toggle a {
+    #menu-toggle a{
         background-color: var(--white);
     }
 
-    #menu-toggle a:hover {
+    #menu-toggle a:hover{
         background-color: var(--yellow);
     }
 
-    #menu-toggle li:not(:last-child) a {
+    #menu-toggle li:not(:last-child) a{
         border-bottom: unset;
     }
   
@@ -632,70 +632,70 @@ footer a {
         margin-top: 0;
     }
 
-    #menu-toggle li:last-child {
+    #menu-toggle li:last-child{
         margin-right: 0;
     }
 
-    #menu-toggle a {
+    #menu-toggle a{
         padding: 8px 0;
     }
 
-    #intro {
+    #intro{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 60px 1fr;
     }
 
-    #img-grid {
+    #img-grid{
         grid-row: 1/-1;
         grid-column: 2/-1; 
     }
 
-    #plan h3 {
+    #plan h3{
         padding: 24px 0 0 16px;
     }
 
-    #plan div {
+    #plan div{
         padding: 16px 48px 64px;
         grid-template-columns: repeat(4, 1fr);
     }
 
-    #plan section {
+    #plan section{
         max-height: 220px;
     }
 
-    #plan img {
+    #plan img{
         max-height: 100%;
     }
 
-    #testimonials {
+    #testimonials{
         padding: 48px;
     }
 
-    #testimonials div {
+    #testimonials div{
         grid-template-columns: repeat(4, 1fr);
     }
 
-    #about {
+    #about{
         padding: 24px 16px 48px;
     }
 
-    #about div {
+    #about div{
         max-width: 60%;
         margin:auto;
     }
 
-    form {
+    form{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 16px;
     }
 
-    footer {
+    footer{
         justify-content: end;
     }
 
-    footer p {
+    footer p{
         margin-right: auto;
     }
 }
